@@ -2,6 +2,7 @@
 
 Ejemplo de uso:
 ```
-    const { data: null, loading: true, error: null } = useFetch (url);
-    # url: 'endpoint de una api'; #
+    const { counter, increment, decrement, reset } = useCounter (10);
+    
+    # useCounter() recibe un valor por defecto #
 ```
