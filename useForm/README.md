@@ -9,4 +9,6 @@ Ejemplo de uso:
     };
     
     const [ formValues, handleInputChange, reset ] = useForm ( initialForm );
+
+    const { nombre, edad, email } = formValues;
 ```
